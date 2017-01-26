@@ -1,2 +1,2 @@
 # webdev
-Course assignments for Web Deb (Uniandes 201710)
+Course assignments for Web Dev (Uniandes 201710)
