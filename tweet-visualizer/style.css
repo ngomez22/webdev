@@ -4,17 +4,17 @@ body {
 }
 
 .tweet {
-    width: 400px;
-    margin: 10px;
-    border: Gray solid 1px;
-    float: left;
-    clear: none;
+  width: 400px;
+  margin: 10px;
+  border: Gray solid 1px;
+  float: left;
+  clear: none;
 }
 
 .user {
   color: navy;
   width: 30%;
-  float:left;
+  float: left;
 }
 
 .info {
