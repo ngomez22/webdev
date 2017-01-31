@@ -1,13 +1,18 @@
+body {
+  font-family: Verdana;
+  font-size: 14px;
+}
+
 .tweet {
     width: 400px;
     margin: 10px;
-    border: Black solid 1px;
+    border: Gray solid 1px;
     float: left;
     clear: none;
-    position: relative;
 }
 
 .user {
+  color: navy;
   width: 30%;
   float:left;
 }
