@@ -6,3 +6,25 @@
 h3 {
   color: rgb(115, 115, 115);
 }
+
+.social-media {
+  float: left;
+  clear: none;
+  padding: 20px;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+}
+
+.fa-facebook-square {
+  color: #4267B2;
+}
+
+.fa-google-plus {
+  color: #DB4437;
+}
+
+.fa-stack-overflow {
+  color: #F48024
+}
