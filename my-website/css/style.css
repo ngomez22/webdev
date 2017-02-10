@@ -27,6 +27,13 @@ h3>b {
   float: left;
   clear: none;
   padding: 20px;
+  transition: all 0.07s;
+}
+
+.highlight {
+  color: #00B174 !important;
+  border-color: #00B174;
+  box-shadow: 0 0 15px #00B174;
 }
 
 .fa-twitter {
@@ -58,6 +65,7 @@ h3>b {
 
 .row .project {
   padding: 20px;
+  text-align: center
 }
 
 
