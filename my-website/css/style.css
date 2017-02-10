@@ -25,6 +25,10 @@ h3 {
   color: #DB4437;
 }
 
+.fa-github {
+  color: rgb(0, 0, 0);
+}
+
 .fa-stack-overflow {
   color: #F48024
 }
