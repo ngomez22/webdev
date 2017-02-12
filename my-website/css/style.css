@@ -15,7 +15,7 @@ body {
 /*SIDEBAR*/
 
 #sidebar-wrapper {
-  background: rgb(50, 50, 50);
+  background: #4D494D;
 }
 
 .sidebar-toggle-btn {
@@ -24,8 +24,8 @@ body {
 }
 
 #menu-toggle {
-  background-color: rgb(50, 50, 50);
-  color: #00B174;
+  background-color: #4D494D;
+  color: #ec4700;
 }
 
 
@@ -37,15 +37,15 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 45px;
 }
 
 h2 {
-  color: #00B174;
+  color: #ec4700;
 }
 
 h3, h4 {
-  color: #00462e;
+  color: #4A4A4A;
 }
 
 h3>b {
