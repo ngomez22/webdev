@@ -20,4 +20,8 @@
       event.srcElement.classList.remove("highlight");
     })
   }
+  //Setup send button
+  document.getElementById("send-btn").addEventListener("click", function() {
+    console.log("Algún día se enviará el correo...");
+  });
 })()

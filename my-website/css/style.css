@@ -88,6 +88,11 @@ h3>b {
   color: #F48024
 }
 
+.form-group {
+  float: none;
+  clear: none;
+}
+
 
 /*PROJECTS SECTION*/
 
