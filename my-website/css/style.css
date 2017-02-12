@@ -1,3 +1,7 @@
+body {
+  scroll-behavior: smooth;
+}
+
 #page-content-wrapper {
   padding-left: 45px;
 }
@@ -54,7 +58,7 @@ h3>b {
   float: left;
   clear: none;
   padding: 20px;
-  transition: all 0.07s;
+  transition: all 0.15s;
 }
 
 .highlight {

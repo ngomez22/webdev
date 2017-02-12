@@ -5,7 +5,9 @@
     var href = sidebarLinks[i].getAttribute("href").replace(/#/g, "");
     var target = document.getElementById(href);
     sidebarLinks[i].addEventListener("click", function(event) {
-      target.scrollIntoView(true);
+      target.scrollIntoView({
+        behavior: "smooth"
+      });
     })
   }
   //Setup social media buttons highlight functionality
