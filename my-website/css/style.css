@@ -1,9 +1,23 @@
+#page-content-wrapper {
+  padding-left: 45px;
+}
+
+
 /*SIDEBAR*/
 
 #sidebar-wrapper {
   background: rgb(50, 50, 50);
 }
 
+.sidebar-toggle-btn {
+  z-index: 1;
+  position: fixed;
+}
+
+#menu-toggle {
+  background-color: rgb(50, 50, 50);
+  color: #00B174;
+}
 
 /*PRESONAL INFO SECTION*/
 

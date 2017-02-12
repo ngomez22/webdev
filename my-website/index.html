@@ -33,9 +33,7 @@
 </head>
 
 <body>
-
   <div id="wrapper">
-
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
@@ -56,13 +54,15 @@
 
     <!-- Page Content -->
     <!-- Make sure to keep all page content within the #page-content-wrapper -->
+    <div class="sidebar-toggle-btn">
+      <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><span class="fa fa-bars"></span></a>
+    </div>
     <div id="page-content-wrapper">
       <div class=" container-fluid">
         <div class="row">
           <div class="col-lg-8">
             <h1>Nicolás Gómez</h1>
             <h3>Systems and computing engineering student at Uniandes</h2>
-            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
           </div>
           <div class="col-lg-4">
             <img id="ppic" src="./files/profilepic.png" alt="Beautiful profile picture">
@@ -107,8 +107,11 @@
   <!-- footer -->
   <footer class="footer">
     <div class="container">
-      <p class="text-muted">Sidebar template <a href="https://startbootstrap.com/template-overviews/simple-sidebar/" target="_blank">here</a></p>
-      <p class="text-muted">Footer template <a href="http://getbootstrap.com/examples/sticky-footer/" target="_blank">here</a></p>
+      <ul class="list-inline">
+        <li class="text-muted">Sidebar template <a href="https://startbootstrap.com/template-overviews/simple-sidebar/" target="_blank">here</a></li>
+        <li class="text-muted">Footer template <a href="http://getbootstrap.com/examples/sticky-footer/" target="_blank">here</a></li>
+      </ul>
+
     </div>
   </footer>
   <!-- My Javascript file -->
