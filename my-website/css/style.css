@@ -19,6 +19,7 @@
   color: #00B174;
 }
 
+
 /*PRESONAL INFO SECTION*/
 
 #ppic {
@@ -26,8 +27,16 @@
   width: 200px;
 }
 
-h3 {
+h1 {
+  font-size: 60px;
+}
+
+h2 {
   color: #00B174;
+}
+
+h3, h4 {
+  color: #00462e;
 }
 
 h3>b {
