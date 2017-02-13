@@ -53,6 +53,25 @@ h3>b {
 }
 
 
+/*PROJECTS SECTION*/
+
+.text {
+  padding: 15px;
+}
+
+.row .project {
+  padding: 20px;
+}
+
+.carousel-img {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+
+
 /*SOCIAL MEDIA SECTION*/
 
 .social-media {
@@ -63,9 +82,9 @@ h3>b {
 }
 
 .highlight {
-  color: #00B174 !important;
-  border-color: #00B174;
-  box-shadow: 0 0 15px #00B174;
+  color: #ec4700 !important;
+  border-color: #ec4700;
+  box-shadow: 0 0 15px #ec4700;
 }
 
 .fa-twitter {
@@ -94,15 +113,62 @@ h3>b {
 }
 
 
-/*PROJECTS SECTION*/
+/* carousel */
 
-.text {
-  padding: 15px;
+.carousel-indicators .active {
+  background: #ec4700;
 }
 
-.row .project {
-  padding: 20px;
-  text-align: center
+.content {
+  margin-top: 20px;
+}
+
+.carousel-indicators li {
+  border: 1px solid #ec4700;
+}
+
+.carousel-control {
+  color: #ec4700;
+  width: 5%;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+  color: #ec4700;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  color: #ec4700;
+}
+
+.media-object {
+  margin: auto;
+  margin-top: 15%;
+}
+
+@media screen and (max-width: 768px) {
+  .media-object {
+    margin-top: 0;
+  }
+}
+
+.carousel-controls {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.carousel-indicators {
+  top: 0px;
+  z-index: 1;
+}
+
+.project-pic {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 225px;
+  max-height: 225px;
 }
 
 
