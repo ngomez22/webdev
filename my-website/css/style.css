@@ -3,6 +3,13 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+hr {
+  background-color: #4D494D;
+  border: 0 none;
+  color: #4D494D;
+  height: 2px;
+}
+
 #page-content-wrapper {
   padding-left: 45px;
 }
