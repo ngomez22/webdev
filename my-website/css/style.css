@@ -4,9 +4,9 @@ body {
 }
 
 hr {
-  background-color: #4D494D;
+  background-color: #1E876A;
   border: 0 none;
-  color: #4D494D;
+  color: #1E876A;
   height: 2px;
 }
 
@@ -18,11 +18,16 @@ hr {
   padding-bottom: 25px;
 }
 
+p {
+  font-size: 17px;
+  word-spacing: 0.6em;
+}
+
 
 /*SIDEBAR*/
 
 #sidebar-wrapper {
-  background: #4D494D;
+  background: #1E876A;
 }
 
 .sidebar-toggle-btn {
@@ -31,8 +36,8 @@ hr {
 }
 
 #menu-toggle {
-  background-color: #4D494D;
-  color: #ec4700;
+  background-color: #1E876A;
+  color: #fff;
 }
 
 
@@ -48,7 +53,7 @@ h1 {
 }
 
 h2 {
-  color: #ec4700;
+  color: #104F44;
 }
 
 h3, h4 {
@@ -89,9 +94,9 @@ h3>b {
 }
 
 .highlight {
-  color: #ec4700 !important;
-  border-color: #ec4700;
-  box-shadow: 0 0 15px #ec4700;
+  color: #1E876A !important;
+  border-color: #1E876A;
+  box-shadow: 0 0 15px #1E876A;
 }
 
 .fa-twitter {
