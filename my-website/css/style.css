@@ -14,7 +14,7 @@ hr {
   padding-left: 45px;
 }
 
-.row {
+.section .row {
   padding-bottom: 25px;
 }
 
@@ -69,6 +69,15 @@ h3>b {
   color: white;
 }
 
+h3.information {
+  margin-left: 10px;
+}
+
+.well {
+  margin: 10px;
+  padding: 10px;
+}
+
 
 /*PROJECTS SECTION*/
 
@@ -86,6 +95,10 @@ h3>b {
   width: auto;
   height: 225px;
   max-height: 225px;
+}
+
+.nav-tabs>li>a {
+  color: #1E876A;
 }
 
 
