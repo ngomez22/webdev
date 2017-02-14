@@ -44,8 +44,13 @@ p {
 /*PRESONAL INFO SECTION*/
 
 #ppic {
+  /*transition: all 0.5s;*/
   border-radius: 100%;
   width: 200px;
+}
+
+.shine {
+  border: 5px solid #1E876A;
 }
 
 h1 {

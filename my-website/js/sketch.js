@@ -10,6 +10,17 @@
       });
     })
   }
+
+  //Setup profile pic beahviour
+  var pic = document.getElementById("ppic");
+  var picWidth = pic.getAttribute("width");
+  pic.addEventListener("mouseover", function(event) {
+    pic.classList.add("shine");
+  });
+  pic.addEventListener("mouseleave", function(event) {
+    pic.classList.remove("shine");
+  })
+
   //Setup social media buttons highlight functionality
   var buttons = document.getElementsByClassName("social-media");
   for (var i = 0; i < buttons.length; i++) {
@@ -20,6 +31,7 @@
       event.srcElement.classList.remove("highlight");
     })
   }
+
   //Setup send button
   document.getElementById("send-btn").addEventListener("click", function() {
     console.log("Algún día se enviará el correo...");
