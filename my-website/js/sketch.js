@@ -15,10 +15,10 @@
   var pic = document.getElementById("ppic");
   var picWidth = pic.getAttribute("width");
   pic.addEventListener("mouseover", function(event) {
-    pic.classList.add("shine");
+    pic.classList.add("outline");
   });
   pic.addEventListener("mouseleave", function(event) {
-    pic.classList.remove("shine");
+    pic.classList.remove("outline");
   })
 
   //Setup social media buttons highlight functionality
