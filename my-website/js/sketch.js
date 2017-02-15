@@ -15,9 +15,11 @@
   var pic = document.getElementById("ppic");
   var picWidth = pic.getAttribute("width");
   pic.addEventListener("mouseover", function(event) {
+    pic.src = "./files/uniandes.jpg";
     pic.classList.add("outline");
   });
   pic.addEventListener("mouseleave", function(event) {
+    pic.src = "./files/profilepic.png";
     pic.classList.remove("outline");
   })
 
