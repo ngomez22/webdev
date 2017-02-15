@@ -23,6 +23,16 @@ p {
   word-spacing: 0.6em;
 }
 
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.well {
+  background-color: rgb(235, 235, 235);
+}
+
 
 /*SIDEBAR*/
 
@@ -45,8 +55,8 @@ p {
 
 #ppic {
   /*transition: all 0.5s;*/
-  border-radius: 100%;
-  width: 200px;
+  border-radius: 10%;
+  width: 300px;
 }
 
 .outline {
