@@ -1,0 +1,19 @@
+{
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "Class list for Web Development 2017-1 using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "list",
+    "bootstrap",
+    "html",
+    "css"
+  ],
+  "author": "Nicolas Gomez",
+  "license": "MIT"
+}
