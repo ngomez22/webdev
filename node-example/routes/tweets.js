@@ -5,15 +5,18 @@ function load() {
   for(var i=0; i<tweets.length; i++) {
     var name = tweets[i].user.name;
     var text = tweets[i].text;
-    if(!(name in students) && !tweets[i].retweeted_status) {
+    if(!students[name] && !tweets[i].retweeted_status) {
       students[name] = {
         "name" : name,
         "image" : tweets[i].user.profile_image_url,
         "handle" : tweets[i].user.screen_name,
         "tweets" : []
       };
+    }
+    if(!tweets[i].retweeted_status) {
       students[name].tweets.push(text);
     }
+
   }
   return students;
 }
