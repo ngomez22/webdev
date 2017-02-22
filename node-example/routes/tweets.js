@@ -16,7 +16,6 @@ function load() {
     if(!tweets[i].retweeted_status) {
       students[name].tweets.push(text);
     }
-
   }
   return students;
 }

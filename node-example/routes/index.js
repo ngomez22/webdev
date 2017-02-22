@@ -5,7 +5,7 @@ var students = require(__dirname + '/tweets');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { list : students });
 });
 
 /* GET tweets */

@@ -1,5 +1,20 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.row.text-center
+    h1 Class list with tweets!
+    h3 WebDev @Uniandes, 2017-1
+  hr
+  div.row
+    each student in list
+      div.panel-group.col-lg-4
+        div.panel.panel-default
+          div.panel-heading
+            div.col-lg-9
+              h4 #{student.name}
+              a(href="https://twitter.com/"+student.handle target="_blank")  @#{student.handle}
+            img(src=student.image)
+          div.panel-body
+            ul
+            each tweet in student.tweets
+              li #{tweet}
