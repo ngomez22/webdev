@@ -4,5 +4,15 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: rgb(31, 77, 181);
+}
+
+h4 {
+  margin: 2px;
+}
+
+.panel-body {
+  float: left;
+  height: 150px;
+  overflow-y: scroll;
 }
